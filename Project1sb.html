@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    
+
+    <link rel="stylesheet" href="Project1sb2.css">
+   
+</head>
+<body>
+    <nav class="good">
+        <ul>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#post1">Personal Information</a></li>
+            <li><a href="#post2">Education</a></li>
+            <li><a href="#post3">Skills</a></li>            
+            <li><a href="#post4">Work Experience</a></li>
+            <li><a href="#post5">Project</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <div class="taste">
+    <img id="adjust" src="resumeimg.jpg" width="100px" height="100px">
+    <div>
+        <h1 id="name">Jagpreet Singh</h1>
+    </div>
+</div>
+    <div id="container--main">
+        <section class="resume" id="post1">
+            <h2 id="header-fit" >Personal Information</h2>
+            <br>
+            <br>
+            <div class="light">
+            <li>My name is Jagpreet Singh</li>
+            <li>My Contact information are: 8923103845</li>
+            <li>My gmail account is: jagpreetsingh@gmail.com</li>
+            <li>I am a B.Tech student of IIT Ropar. I am from the Mathematics and Computing branch.</li>
+            <li>I belong to Mansa, Punjab. I am a Competitive programmer with expert on codeforces and 5 star on codechef.</li> 
+            <li>My interest lies in coding, software development and devops.</li>
+        </div>
+        </section>
+        <section class="resume2" id="post2">
+            <h2 id="header-just">Education</h2>
+            <li>I am doing B.Tech from IIT Ropar. I have done my 12th class from Kendriya Vidayalaya NAL, Bangalore.</li>
+            <li>I have done 10th class from Kendriya Vidayalaya NLC Neyveli, Tamil Nadu.</li>
+        </section>
+        <br>
+        <br>
+        <section class="resume3" id="post3">
+            <h2 id="header-move">Skills</h2>
+            <li>My skills are C++, C, Python, HTML, CSS, JavaScript, React, Node.js, Angular, jQuery, SQL, MongoDB, Express.js, Django</li>
+        </section>
+        <br>
+        <br>
+        <section class="resume4" id="post4">
+            <h2 id="header-show">Work Experience</h2>
+            <strong>Teachnook</strong>
+            <p>I have completed an internship in web development from Teachnook company. I have made a digital marketing website using HTML, CSS and JavaScript.</p>
+            <strong>Development Engineering Project</strong>
+            <p>I have made a hospital management web application as a part of development engineering project. In this project I have worked on Frontend and backend of the website. Also I used SQL for database management. I also gathered information about medical staff, doctors and medicine from our college medical center.</p>
+            <strong>Internship at IIT Mandi</strong>
+            <p>Conducted research on species identification using computer vision techniques. Developed and trained deep learning models to accurately identify various species. Worked with large datasets and implemented advanced neural network architectures.</p> 
+        </section>
+        <br>
+        <br>
+        <section class="resume5" id="post5">
+            <h2 id="header-kind">Project</h2>
+            <div class="card--work-history">
+                <strong>Obstacle avoidance car</strong>
+                <p>Aug 2019 - Nov 2019</p>
+                <p>We made an obstacle avoidance car using radar and Arduino. Arduino is a controller board which uses the ATmega microcontroller. To avoid such collisions, you need to detect the potential collision using radar sensor readings.</p>
+                <button id="myButton1">Click me</button>
+                <div id="myPopup1" class="popup">
+                    <div class="popup-content">
+                        
+                        <p>This is a popup box!</p>
+                        <li>This innovative vehicle employs a servo mounted ultrasonic sensor to detect objects situated both in front and on either side of the car.</li>
+                        <li>It sends out 40kHz ultrasonic signals that bounce back when they hit an object.</li>
+                        <li>By analyzing the returning echoes, the sensor calculates distances between the car and obstacles in real-time.</li>
+                        <li>When an obstacle is detected, the car autonomously changes direction.</li>
+                        <button id="closePopup1">Close</button>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="card--work-history">
+                <strong>Segment trees and its applications</strong>
+                <p>Aug 2021 - Nov 2021</p>
+                <p>We did Range update and lazy propagation in segment trees. Lazy propagation is a range update and query optimized implementation of a segment tree that performs both operations in O(logN) time. Segment tree or segtree is basically a binary tree used for storing the intervals or segments.</p>
+                <button id="myButton2">Click me</button>
+                <div id="myPopup2" class="popup">
+                    <div class="popup-content">
+                   
+                        <p>This is a popup box!</p>
+                        <li>A segment tree is a data structure that deals with a range of queries over an array. It has a divide and conquers approach.</li>
+                        <li>Used to solve range minimum and maximum & Sum Queries and Range Update Queries in O(log n) time complexity.</li>
+                        <li>Applications of the segment tree are in the areas of computational geometry, geographic information systems, and machine learning.</li>
+                        <button id="closePopup2">Close</button>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="card--work-history">
+                <strong>Exploratory data analysis on flower data</strong>
+                <p>Aug 2022 - Nov 2022</p>
+                <p>We did Logistic regression and KNN with different k to predict the different variety of flowers. By exploratory data analysis we mean understanding the variables and relationships between them.</p>
+                <button id="myButton3">Click me</button>
+                <div id="myPopup3" class="popup">
+                    <div class="popup-content">
+                     
+                        <p>This is a popup box!</p>
+                        
+                        <li>In exploratory data analysis on data first we imported the libraries and data set.</li>
+                        <li>K-Nearest Neighbors (KNN) is a simple, instance-based machine learning algorithm used for classification and regression.</li>
+                        <li>It classifies a data point based on how its neighbors are classified, considering the closest K data points in the feature space.</li>
+                        <button id="closePopup3">Close</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="Project1sb3.js"></script>
+</body>
+</html>
